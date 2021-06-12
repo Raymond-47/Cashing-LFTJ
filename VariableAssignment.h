@@ -6,7 +6,7 @@
 #define CACHING_LFTJ_VARIABLEASSIGNMENT_H
 
 class VariableAssignment{
-private:
+public:
     int variable1;
     int assignment1;
     int variable2;
