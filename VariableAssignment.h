@@ -14,6 +14,7 @@ private:
     int counter;
 
 public:
+    VariableAssignment() = default;
     VariableAssignment(int var,int ass);
     VariableAssignment(int var1,int ass1,int var2,int ass2);
 
