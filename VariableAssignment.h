@@ -18,6 +18,8 @@ public:
     VariableAssignment(int var,int ass);
     VariableAssignment(int var1,int ass1,int var2,int ass2);
 
+    bool operator==(VariableAssignment var);
+
 };
 
 #endif //CACHING_LFTJ_VARIABLEASSIGNMENT_H
